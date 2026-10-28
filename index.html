@@ -4,16 +4,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Project</title>
+
+    <title>Dipendu Biswas | Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Dipendu Biswas, GIS Specialist and Web Developer.">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hello from GitHub Codespaces!</h1>
-    <p id="message">My first website is working.</p>
-    <button onclick="changeMessage()">Click Me</button>
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">Dipendu <span>Biswas</span></a>
 
-    <script src="script.js"></script>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hello, I'm <span>Dipendu Biswas</span></h1>
+
+                <h2>GIS Specialist | Web Developer</h2>
+
+                <p class="hero-description">
+                    I work with geospatial data, maps and modern web technologies
+                    to build useful digital solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-card">
+                <div>
+                    <h3>Building with Maps & Technology</h3>
+                    <p>
+                        I am a GIS Specialist interested in WebGIS development,
+                        spatial analysis, geographic data and web application development.
+                        I enjoy learning new technologies and turning data into useful
+                        information.
+                    </p>
+                </div>
+
+                <div class="about-highlight">
+                    <span class="highlight-icon">🌍</span>
+                    <h3>My Focus</h3>
+                    <p>GIS · Mapping · Web Development · Data Visualization</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section section-light">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2>My Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span>🌐</span>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </article>
+
+                <article class="skill-card">
+                    <span>🗺️</span>
+                    <h3>GIS & Mapping</h3>
+                    <p>QGIS, OpenLayers, Leaflet, GeoServer</p>
+                </article>
+
+                <article class="skill-card">
+                    <span>💾</span>
+                    <h3>Backend & Database</h3>
+                    <p>Node.js, Express, Python, PostgreSQL/PostGIS</p>
+                </article>
+
+                <article class="skill-card">
+                    <span>📊</span>
+                    <h3>Spatial Analysis</h3>
+                    <p>Geospatial data processing and visualization</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">A FEW EXAMPLES</p>
+                <h2>My Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-icon">🗺️</div>
+                    <h3>WebGIS Application</h3>
+                    <p>
+                        An interactive mapping interface for exploring geographic data.
+                    </p>
+                    <span class="project-tag">GIS · Web Mapping</span>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">📍</div>
+                    <h3>Spatial Data Analysis</h3>
+                    <p>
+                        A sample project focused on spatial information and map-based analysis.
+                    </p>
+                    <span class="project-tag">QGIS · Spatial Data</span>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Responsive web pages built using modern web development tools.
+                    </p>
+                    <span class="project-tag">HTML · CSS · JavaScript</span>
+                </article>
+            </div>
+
+            <p class="note">
+                Note: The project cards above are examples. Replace them with links
+                and details of your actual projects.
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact Me</h2>
+                <p>Have a project idea or want to connect? Feel free to reach out.</p>
+            </div>
+
+            <!-- Replace this placeholder with your actual email -->
+            <a class="btn btn-primary" href="mailto:crazdip@gmail.com">
+                Send Me an Email
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Dipendu Biswas. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
 </body>
 
 </html>
